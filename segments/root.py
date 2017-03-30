@@ -1,6 +1,7 @@
 def add_root_segment(powerline):
     root_indicators = {
-        'bash': ' \\$ ',
+#        'bash': ' \\$ ',
+        'bash': ' ',
         'zsh': ' %# ',
         'bare': ' $ ',
     }
